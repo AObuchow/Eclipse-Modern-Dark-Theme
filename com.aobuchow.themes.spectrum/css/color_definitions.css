@@ -11,75 +11,74 @@
  *******************************************************************************/
 
 ThemesExtension {
-  color-definition:
-    "#org-eclipse-ui-workbench-INACTIVE_TAB_UNSELECTED_TEXT_COLOR",
-    "#org-eclipse-ui-workbench-INACTIVE_TAB_SELECTED_TEXT_COLOR",
-    "#org-eclipse-ui-workbench-ACTIVE_TAB_UNSELECTED_TEXT_COLOR",
-    "#org-eclipse-ui-workbench-ACTIVE_TAB_SELECTED_TEXT_COLOR",
-    "#org-eclipse-ui-workbench-ACTIVE_NOFOCUS_TAB_SELECTED_TEXT_COLOR",
-    "#org-eclipse-ui-workbench-PRIMARY_COLOR",
-	"#com-aobuchow-themes-moderndark-BASE_COLOR",
-	"#com-aobuchow-themes-moderndark-TAB_HOVER_COLOR",
-	"#org-eclipse-ui-workbench-LINK_COLOR",
-	"#com-aobuchow-themes-moderndark-BACKGROUND_COLOR";
+  color-definition: '#org-eclipse-ui-workbench-INACTIVE_TAB_UNSELECTED_TEXT_COLOR',
+    '#org-eclipse-ui-workbench-INACTIVE_TAB_SELECTED_TEXT_COLOR',
+    '#org-eclipse-ui-workbench-ACTIVE_TAB_UNSELECTED_TEXT_COLOR',
+    '#org-eclipse-ui-workbench-ACTIVE_TAB_SELECTED_TEXT_COLOR',
+    '#org-eclipse-ui-workbench-ACTIVE_NOFOCUS_TAB_SELECTED_TEXT_COLOR',
+    '#org-eclipse-ui-workbench-PRIMARY_COLOR',
+    '#com-aobuchow-themes-moderndark-BASE_COLOR',
+    '#com-aobuchow-themes-moderndark-TAB_HOVER_COLOR',
+    '#org-eclipse-ui-workbench-LINK_COLOR',
+    '#com-aobuchow-themes-moderndark-BACKGROUND_COLOR';
 }
 
 ColorDefinition#org-eclipse-ui-workbench-PRIMARY_COLOR {
   color: #d70000;
-  category: "#com-aobuchow-themes-moderndark-themeCategory";
-  label: "Accent Color";
+  category: '#com-aobuchow-themes-moderndark-themeCategory';
+  label: 'Accent Color';
 }
 
 ColorDefinition#com-aobuchow-themes-moderndark-BASE_COLOR {
   color: #2f2f2f;
-  category: "#com-aobuchow-themes-moderndark-themeCategory";
-  label: "Base Color";
+  category: '#com-aobuchow-themes-moderndark-themeCategory';
+  label: 'Base Color';
 }
 
 ColorDefinition#com-aobuchow-themes-moderndark-TAB_HOVER_COLOR {
   color: #161616;
-  category: "#com-aobuchow-themes-moderndark-themeCategory";
-  label: "Tab Hover Color";
+  category: '#com-aobuchow-themes-moderndark-themeCategory';
+  label: 'Tab Hover Color';
 }
 
 ColorDefinition#com-aobuchow-themes-moderndark-BACKGROUND_COLOR {
   color: #17171b;
-  category: "#com-aobuchow-themes-moderndark-themeCategory";
-  label: "Background Color";
+  category: '#com-aobuchow-themes-moderndark-themeCategory';
+  label: 'Background Color';
 }
 
 ColorDefinition#org-eclipse-ui-workbench-INACTIVE_TAB_UNSELECTED_TEXT_COLOR {
   color: #bbbbbb;
-  category: "#org-eclipse-ui-presentation-default";
-  label: url("platform:/plugin/org.eclipse.ui.themes?message=INACTIVE_TAB_UNSELECTED_TEXT_COLOR");
+  category: '#org-eclipse-ui-presentation-default';
+  label: url('platform:/plugin/org.eclipse.ui.themes?message=INACTIVE_TAB_UNSELECTED_TEXT_COLOR');
 }
 
 ColorDefinition#org-eclipse-ui-workbench-INACTIVE_TAB_SELECTED_TEXT_COLOR {
   color: #ffffff;
-  category: "#org-eclipse-ui-presentation-default";
-  label: url("platform:/plugin/org.eclipse.ui.themes?message=INACTIVE_TAB_SELECTED_TEXT_COLOR");
+  category: '#org-eclipse-ui-presentation-default';
+  label: url('platform:/plugin/org.eclipse.ui.themes?message=INACTIVE_TAB_SELECTED_TEXT_COLOR');
 }
 
 ColorDefinition#org-eclipse-ui-workbench-ACTIVE_TAB_UNSELECTED_TEXT_COLOR {
   color: white;
-  category: "#org-eclipse-ui-presentation-default";
-  label: url("platform:/plugin/org.eclipse.ui.themes?message=ACTIVE_TAB_UNSELECTED_TEXT_COLOR");
+  category: '#org-eclipse-ui-presentation-default';
+  label: url('platform:/plugin/org.eclipse.ui.themes?message=ACTIVE_TAB_UNSELECTED_TEXT_COLOR');
 }
 
 ColorDefinition#org-eclipse-ui-workbench-ACTIVE_TAB_SELECTED_TEXT_COLOR {
   color: white;
-  category: "#org-eclipse-ui-presentation-default";
-  label: url("platform:/plugin/org.eclipse.ui.themes?message=ACTIVE_TAB_SELECTED_TEXT_COLOR");
+  category: '#org-eclipse-ui-presentation-default';
+  label: url('platform:/plugin/org.eclipse.ui.themes?message=ACTIVE_TAB_SELECTED_TEXT_COLOR');
 }
 
 ColorDefinition#org-eclipse-ui-workbench-ACTIVE_NOFOCUS_TAB_SELECTED_TEXT_COLOR {
   color: #cccccc;
-  category: "#org-eclipse-ui-presentation-default";
-  label: url("platform:/plugin/org.eclipse.ui.themes?message=ACTIVE_NOFOCUS_TAB_SELECTED_TEXT_COLOR");
+  category: '#org-eclipse-ui-presentation-default';
+  label: url('platform:/plugin/org.eclipse.ui.themes?message=ACTIVE_NOFOCUS_TAB_SELECTED_TEXT_COLOR');
 }
 
 ColorDefinition#org-eclipse-ui-workbench-LINK_COLOR {
   color: #28ebc3;
-  category: "#org-eclipse-ui-presentation-default";
-  label: url("platform:/plugin/org.eclipse.ui.themes?message=LINK_COLOR");
+  category: '#org-eclipse-ui-presentation-default';
+  label: url('platform:/plugin/org.eclipse.ui.themes?message=LINK_COLOR');
 }
