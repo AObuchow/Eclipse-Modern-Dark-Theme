@@ -11,7 +11,7 @@
  *******************************************************************************/
 
 CTabFolder {
-  swt-tab-renderer: url('bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.CTabRendering');
+  swt-tab-renderer: url('bundleclass://io.github.pyvesb.elementary_tab_renderer/io.github.pyvesb.elementary_tab_renderer.ElementaryCTabFolderRenderer');
   swt-selected-tab-fill: '#com-aobuchow-themes-spectrum-BASE_COLOR'
     '#com-aobuchow-themes-spectrum-BASE_COLOR' 100% 100%; /* title background for selected tab */
   swt-unselected-tabs-color: '#com-aobuchow-themes-spectrum-BASE_COLOR'
@@ -90,3 +90,4 @@ CTabItem CLabel {
   background-color: '#com-aobuchow-themes-spectrum-BASE_COLOR'; /* HACK for background of CTabFolder inner Toolbars */
   color: '#org-eclipse-ui-workbench-ACTIVE_TAB_SELECTED_TEXT_COLOR';
 }
+
